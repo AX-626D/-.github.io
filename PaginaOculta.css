@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .titulo {
     color: rgb(255, 255, 255);
@@ -13,14 +13,14 @@ body {
 .login {
     position: absolute;
     z-index: 5px;
-    top: 400px;
+    top: 500px;
     left: 500px;
 }
 
 .video {
     margin: 0;
     height: 100px;
-    width: 100px;
+    width: 200px;
     z-index: 5px;
-    background-color: blacks;
+    background-color: black;
   }
