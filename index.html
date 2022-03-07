@@ -1,0 +1,43 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="PaginaOculta.css">
+    <script type="text/javascript" defer src="PaginaOculta.js"></script>
+    <title>Trap Web</title>
+</head>
+<body>
+  <!-- titulo y video -->
+  <div class="inicio">
+    <video id="video" src="video/unknown_2022.03.06-13.04_Trim.mp4" 
+     autoplay muted loop ></video>
+     <div class="titulo"> Trap Web </div>
+     <div></div> 
+  </div>
+
+<!--     login       -->
+  <SCRIPT language=JavaScript> 
+  function go(){
+  
+  if (document.form.password.value=='1234567' && document.form.login.value=='ANONYMOUS'){ 
+          document.form.submit(); 
+      } 
+      else{ 
+           alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+      } 
+  } 
+  </SCRIPT> 
+
+   <FORM name=form action="TrapWeb.html" class="login" >
+  
+       <P style="color: rgb(255, 255, 255);">Usuario:    <INPUT type=text name=login> 
+       <P style="color: rgb(255, 255, 255);">Contraseña: <INPUT type=password name=password> 
+       <INPUT onclick=go() type=button value=Acceder>
+  
+  </FORM>
+
+
+
+</body>
+</html>

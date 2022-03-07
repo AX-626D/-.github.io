@@ -1,0 +1,25 @@
+
+#video {
+    position: absolute;
+    top: -130px;
+    right: 0px;
+    left: 0px;
+    width: 1470px;
+    height: 950px;
+    background-color: black;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 3cm;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    right: 500px;
+    z-index: 5px;
+}
+.login {
+    position: absolute;
+    z-index: 5px;
+    top: 300px;
+    left: 500px;
+}
