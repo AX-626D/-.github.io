@@ -124,5 +124,6 @@ button:hover {
 }
 .ending {
     position: relative;
+    z-index: 5px;
 
 }
