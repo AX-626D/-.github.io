@@ -10,9 +10,9 @@
     z-index: 5px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 400%;
+    font-size: 150%;
     top: 20%;
-    left: 4%;
+    left: 4px;
 }
 .TR {
     margin: 1px;
